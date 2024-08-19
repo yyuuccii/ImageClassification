@@ -21,13 +21,13 @@ The dataset contains images categorized into 16 yoga poses. It is split into:
 
 The class distribution is visualized using bar plots to ensure the dataset is balanced.
 
-**Label Distribution - Training Data**
+**Label Distribution - Training Set**
 ![Train Label Distribution](Images/output.png)
 
-**Label Distribution - Test Data**
+**Label Distribution - Test Set**
 ![Test Label Distribution](Images/output1.png)
 
-**Label Distribution - VAlidation Data**
+**Label Distribution - Validation Set**
 ![Val Label Distribution](Images/output2.png)
 
 ## Dependencies
@@ -49,9 +49,9 @@ A pretrained ResNet50 model with fine-tuning on the final layer for the yoga pos
 A pretrained MobileNet model with fine-tuning on the final layer.
 
 ## Training
-Batch size: 32
-Models are trained for 12 epochs using the Adam optimizer with a learning rate scheduler.
-The training process includes regular validation to monitor and improve model performance.
+- Batch size: 32
+- Epochs: 12
+- Using the Adam optimizer with a learning rate scheduler.
 
 **Example of One Batch in the Training Data**:
 ![batch](Images/batch.png)
