@@ -21,6 +21,15 @@ The dataset contains images categorized into 16 yoga poses. It is split into:
 
 The class distribution is visualized using bar plots to ensure the dataset is balanced.
 
+**Label Distribution - Training Data**
+![Train Label Distribution](Images/output.png)
+
+**Label Distribution - Test Data**
+![Test Label Distribution](Images/output1.png)
+
+**Label Distribution - VAlidation Data**
+![Val Label Distribution](Images/output2.png)
+
 ## Dependencies
 
 - Python 3.7+
@@ -40,14 +49,20 @@ A pretrained ResNet50 model with fine-tuning on the final layer for the yoga pos
 A pretrained MobileNet model with fine-tuning on the final layer.
 
 ## Training
-Models are trained for 12 epochs using the Adam optimizer with a learning rate scheduler. The training process includes regular validation to monitor and improve model performance.
+Batch size: 32
+Models are trained for 12 epochs using the Adam optimizer with a learning rate scheduler.
+The training process includes regular validation to monitor and improve model performance.
+
+**Example of One Batch in the Training Data**:
+![batch](Images/batch.png)
+
 
 ## Evaluation
 Models are evaluated on the test set. Performance metrics such as accuracy and loss curves are plotted to assess and compare the effectiveness of each model.
 
 ## Results
-CNN Test Accuracy: ~55.24%
-ResNet50 Test Accuracy: ~72.18%
-MobileNet Test Accuracy: ~70.97%
+- CNN Test Accuracy: ~55.24%
+- ResNet50 Test Accuracy: ~72.18%
+- MobileNet Test Accuracy: ~70.97%
 
 
