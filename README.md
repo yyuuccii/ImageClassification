@@ -39,14 +39,11 @@ The class distribution is visualized using bar plots to ensure the dataset is ba
 - Plotly
 
 ## Model Architecture
-- **Custom CNN**
-A deep CNN with 4 convolutional layers followed by max-pooling and 5 fully connected layers, utilizing dropout for regularization.
+- **Custom CNN**: A deep CNN with 4 convolutional layers followed by max-pooling and 5 fully connected layers, utilizing dropout for regularization.
 
-- **ResNet50**
-A pretrained ResNet50 model with fine-tuning on the final layer for the yoga pose classification task.
+- **ResNet50**: A pretrained ResNet50 model with fine-tuning on the final layer for the yoga pose classification task.
 
-- **MobileNet**
-A pretrained MobileNet model with fine-tuning on the final layer.
+- **MobileNet**: A pretrained MobileNet model with fine-tuning on the final layer.
 
 ## Training
 - Batch size: 32
