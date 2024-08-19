@@ -1,4 +1,4 @@
-# Yoga Pose Classification
+# Yoga Pose Classification with custom CNN, ResNet50, and MobileNet
 
 This project focuses on classifying yoga poses into 16 categories using deep learning models. We explore the use of a custom Convolutional Neural Network (CNN), ResNet50, and MobileNet for this classification task. The dataset consists of labeled images of yoga poses, and the goal is to train models to accurately categorize these poses.
 
