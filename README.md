@@ -32,7 +32,7 @@ The class distribution is visualized using bar plots to ensure the dataset is ba
 
 ## Dependencies
 
-- Python 3.7+
+- Python 3.9.10
 - PyTorch
 - Torchvision
 - Matplotlib
